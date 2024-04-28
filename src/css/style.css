@@ -1,0 +1,92 @@
+body {
+    background-color: #F2F2F2;
+}
+
+#about-api .container h1 {
+    line-height: 1.2;
+}
+
+#result .alinhamento,
+#prev .alinhamento {
+    text-align: center;
+    padding: 0 25%;
+
+}
+
+h1 {
+    font-family: Inter;
+    font-weight: 800;
+    line-height: 60.51px
+}
+
+header .navbar h1,
+.navbar-nav li a,
+footer .container a {
+    color: #FFF;
+}
+
+header .navbar h1 {
+    font-family: Inter;
+    font-size: 40px;
+}
+
+#result img {
+    width: 130px;
+    height: 100px;
+}
+
+#prev img {
+    width: 160px;
+    height: 100px;
+
+}
+
+@media (min-width: 980px) {
+    #continer .container {
+        background-color: #FFF;
+        border-radius: 30px;
+        width: 60%;
+        margin-bottom: 40px;
+    }
+
+    #continer input {
+        background-color: #F2F2F2;
+    }
+
+}
+
+@media (max-width: 980px) {
+    .hide-on-small {
+        display: none;
+    }
+
+    #continer .container {
+        background-color: #FFF;
+        border-radius: 30px;
+        padding: 0 70px;
+        margin-bottom: 40px;
+    }
+
+    #continer input {
+        background-color: #F2F2F2;
+    }
+
+}
+
+@media (max-width: 576px) {
+    h1 {
+        font-size: 25px;
+        line-height: 1;
+        text-align: center;
+    }
+
+    #result img {
+        display: flex;
+        display: none;
+    }
+
+    #prev img {
+        display: flex;
+        display: none;
+    }
+}
